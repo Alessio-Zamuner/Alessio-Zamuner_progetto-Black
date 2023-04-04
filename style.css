@@ -6,3 +6,12 @@
 :root {
     --main: #2B9DF4
 }
+/* color */
+.color-text{
+    color: white;
+}
+/* navbar */
+.navbar-custom{
+    background-color: black;
+    border-bottom: 2px solid white;
+}
