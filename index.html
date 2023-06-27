@@ -1,162 +1,398 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Progetto Black</title>
+        <!-- Bootstrap CSS  -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous" />
+        <!-- font awesome -->
+        <script
+            src="https://kit.fontawesome.com/b1be7ba937.js"
+            crossorigin="anonymous"></script>
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;700&family=Orbitron:wght@400;500;700&display=swap"
+            rel="stylesheet" />
+        <!-- CSS link -->
+        <link rel="stylesheet" href="./style.css" />
+    </head>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Progetto Black</title>
-    <!-- Bootstrap CSS  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/b1be7ba937.js" crossorigin="anonymous"></script>
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;700&family=Orbitron:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <!-- CSS link -->
-    <link rel="stylesheet" href="./style.css">
-
-</head>
-
-<body>
-    <header>
-        <!-- navbar  -->
-        <nav class="navbar navbar-expand-sm navbar-light navbar-custom">
+    <body>
+        <header>
+            <!-- navbar  -->
+            <nav class="navbar navbar-expand-sm navbar-light navbar-custom">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"
+                        ><i
+                            class="fa-solid fa-moon fa-lg"
+                            style="color: #ffffff"></i
+                    ></a>
+                    <button
+                        class="navbar-toggler a-custom"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars fa-lg a-custom"></i>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link a-custom" href="#">Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link a-custom" href="#">Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link a-custom" href="#">Link 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link a-custom" href="#">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- section image moon -->
+            <div class="section-moon container-fluid d-flex align-items-center">
+                <div class="row">
+                    <div class="col-12 color-text-w d-flex flex-column">
+                        <h1 class="ps-4 font-size">Lorem, ipsum.</h1>
+                        <p class="ps-4 fs-4 font-jura">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- icon -->
+            <div class="d-flex justify-content-center">
+                <i class="fa-solid fa-angle-down fa-2xl color-text-main"></i>
+            </div>
+            <!-- cards bottom header -->
+            <div class="container-fluid mt-5">
+                <div class="row justify-content-center ps-5 pe-5">
+                    <div class="col-10 col-md-3">
+                        <div class="card bg-transparent">
+                            <div
+                                class="card-body color-text-w text-center d-flex flex-column align-items-center">
+                                <h6 class="card-title">Lorem</h6>
+                                <p class="p-cards w-100">12</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-3">
+                        <div class="card bg-transparent">
+                            <div
+                                class="card-body color-text-w text-center d-flex flex-column align-items-center">
+                                <h6 class="card-title">Lorem</h6>
+                                <p class="p-cards w-100">3213</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-3">
+                        <div class="card bg-transparent">
+                            <div
+                                class="card-body color-text-w text-center d-flex flex-column align-items-center">
+                                <h6 class="card-title">Lorem</h6>
+                                <p class="p-cards w-100">251</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-3">
+                        <div class="card bg-transparent">
+                            <div
+                                class="card-body color-text-w text-center d-flex flex-column align-items-center">
+                                <h6 class="card-title">Lorem</h6>
+                                <p class="p-cards w-100">93</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- section moon 2 -->
+            <div class="container-fluid vh-100 mt-5">
+                <div class="row pt-5 ps-5 pe-5 align-items-center">
+                    <div class="col-5 color-text-w pt-5">
+                        <h2 class="font-jura color-text-main">Lorem, ipsum.</h2>
+                        <p class="font-jura fs-5">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Perferendis ducimus, ipsum libero ea tempora
+                            reiciendis accusantium deleniti praesentium
+                            perspiciatis odit, eaque earum. Qui numquam
+                            laboriosam recusandae suscipit quae, nemo fuga.
+                        </p>
+                    </div>
+                    <div class="col-7 bg-custom"></div>
+                </div>
+            </div>
+            <!-- section paragraphs-->
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><i class="fa-solid fa-moon fa-lg" style="color: #ffffff;"></i></a>
-                <button class="navbar-toggler a-custom" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars fa-lg a-custom"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link a-custom" href="#">Link 1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link a-custom" href="#">Link 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link a-custom" href="#">Link 3</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link a-custom" href="#">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- section image moon -->
-        <div class="section-moon container-fluid d-flex align-items-center ">
-            <div class="row">
-                <div class="color-text-w d-flex flex-column">
-                    <h1 class="ps-4">Lorem, ipsum.</h1>
-                    <p class="ps-4 font-jura">Lorem ipsum dolor sit amet consectetur.</p>
-                </div>
-            </div>
-        </div>
-        <!-- icon -->
-        <div class="d-flex justify-content-center"><i class="fa-solid fa-angle-down fa-2xl color-text-main"></i>
-        </div>
-        <!-- cards bottom header -->
-        <div class="container mt-5">
-            <div class="row justify-content-center">
-                <div class="col-10 col-md-3">
-                    <div class="card bg-transparent">
-                        <div class="card-body color-text-w text text-center">
-                            <h6 class="card-title">Lorem</h6>
-                            <p class="p-cards">12</p>
-                        </div>
+                <div class="row pb-5 justify-content-between px-5 font-jura">
+                    <div class="col-3 color-text-w">
+                        <h3 class="fs-3 font-jura">
+                            <i class="fa-solid fa-meteor color-text-main"></i>
+                            Lorem
+                        </h3>
+                        <p class="border-custom mb-5 font-jura fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Explicabo voluptatem mollitia vel reiciendis
+                            doloribus itaque, architecto deleniti!
+                        </p>
+                        <h3 class="fs-3 font-jura">
+                            <i class="fa-solid fa-rocket color-text-main"></i>
+                            Lorem
+                        </h3>
+                        <p class="border-custom font-jura fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Explicabo voluptatem mollitia vel reiciendis
+                            doloribus itaque, architecto deleniti!
+                        </p>
                     </div>
-                </div>
-                <div class="col-10 col-md-3">
-                    <div class="card bg-transparent">
-                        <div class="card-body color-text-w text text-center">
-                            <h6 class="card-title">Lorem</h6>
-                            <p class="p-cards">3213</p>
-                        </div>
+                    <div
+                        class="col-3 color-text-w d-flex justify-content-center flex-column text-center">
+                        <h3 class="fs-3 font-jura">
+                            <i class="fa-solid fa-sun color-text-main"></i>
+                            Centro
+                        </h3>
+                        <p class="border-custom mb-5 font-jura fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Explicabo voluptatem mollitia vel reiciendis
+                            doloribus itaque, architecto deleniti!
+                        </p>
                     </div>
-                </div>
-                <div class="col-10 col-md-3">
-                    <div class="card bg-transparent">
-                        <div class="card-body color-text-w text text-center">
-                            <h6 class="card-title">Lorem</h6>
-                            <p class="p-cards">251</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-10 col-md-3">
-                    <div class="card bg-transparent">
-                        <div class="card-body color-text-w text text-center">
-                            <h6 class="card-title">Lorem</h6>
-                            <p class="p-cards">93</p>
-                        </div>
+                    <div class="col-3 color-text-w text-end">
+                        <h3 class="fs-3 font-jura">
+                            <i
+                                class="fa-solid fa-user-astronaut color-text-main"></i>
+                            Lorem
+                        </h3>
+                        <p class="border-custom mb-5 font-jura fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Explicabo voluptatem mollitia vel reiciendis
+                            doloribus itaque, architecto deleniti!
+                        </p>
+                        <h3 class="fs-3 font-jura">
+                            <i class="fa-solid fa-moon color-text-main"></i>
+                            Lorem
+                        </h3>
+                        <p class="border-custom font-jura fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Explicabo voluptatem mollitia vel reiciendis
+                            doloribus itaque, architecto deleniti!
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <main>
-        <!-- section moon 2 -->
-        <div class="container my-5 ">
-            <div class="row pt-5 align-items-center">
-                <div class="col-6 color-text-w pt-5">
-                    <h2 class="font-jura color-text-main">Lorem, ipsum.</h2>
-                    <p class="font-jura">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis ducimus,
-                        ipsum libero ea
-                        tempora reiciendis accusantium deleniti praesentium perspiciatis odit, eaque earum. Qui numquam
-                        laboriosam recusandae suscipit quae, nemo fuga.</p>
-                </div>
-                <div class="col-6 bg-custom">
+            <!-- section rocket -->
+            <div class="container-fluid">
+                <div class="row my-5 py-5 px-5">
+                    <div
+                        class="col-6 d-flex flex-column justify-content-between py-0 color-text-w">
+                        <div class="d-flex flex-column">
+                            <h3 class="fs-3 font-jura color-text-main">
+                                Lorem
+                            </h3>
+                            <p class="font-jura fs-5">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti!
+                            </p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h3 class="fs-3 font-jura color-text-main">
+                                Lorem
+                            </h3>
+                            <p class="font-jura fs-5">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti!
+                            </p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h3 class="fs-3 font-jura color-text-main">
+                                Lorem
+                            </h3>
+                            <p class="font-jura fs-5">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center vh-100">
+                        <img src="/media/missile-2027068_1280.png" alt="" />
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- section paragraphs-->
-        <div class="container pt-5">
-            <div class="row justify-content-between">
-                <div class="col-3 color-text-w">
-                    <h3 class="fs-5 font-jura"><i class="fa-solid fa-meteor color-text-main"></i> Lorem</h3>
-                    <p class="border-custom mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-                        voluptatem mollitia vel reiciendis doloribus itaque, architecto deleniti!</p>
-
-                    <h3 class="fs-5 font-jura"><i class="fa-solid fa-rocket color-text-main"></i> Lorem</h3>
-                    <p class="border-custom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-                        voluptatem mollitia vel reiciendis doloribus itaque, architecto deleniti!</p>
-                </div>
-                <div class="col-3 color-text-w d-flex justify-content-center flex-column text-center">
-                    <h3 class="fs-5 font-jura"><i class="fa-solid fa-sun color-text-main"></i> Centro</h3>
-                    <p class="border-custom mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-                        voluptatem mollitia vel reiciendis doloribus itaque, architecto deleniti!</p>
-                </div>
-                <div class="col-3 color-text-w text-end">
-                    <h3 class="fs-5 font-jura"><i class="fa-solid fa-user-astronaut color-text-main"></i> Lorem</h3>
-                    <p class="border-custom mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-                        voluptatem mollitia vel reiciendis doloribus itaque, architecto deleniti!</p>
-                    <h3 class="fs-5 font-jura"><i class="fa-solid fa-moon color-text-main"></i> Lorem</h3>
-                    <p class="border-custom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-                        voluptatem mollitia vel reiciendis doloribus itaque, architecto deleniti!</p>
+            <!-- section buttons -->
+            <div class="container-fluid pt-5">
+                <div class="row px-5 justify-content-between text-white-50">
+                    <div class="col-5 d-flex flex-column">
+                        <div class="d-flex flex-column align-items-end">
+                            <h3 class="fs-3 font-jura color-text-main w-100">
+                                Lorem ipsum dolor
+                            </h3>
+                            <p class="font-jura">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti!
+                            </p>
+                            <button class="btn-custom mb-5 px-5">Go To</button>
+                        </div>
+                        <div class="d-flex flex-column align-items-end">
+                            <h3 class="fs-3 font-jura color-text-main w-100">
+                                Lorem ipsum dolor
+                            </h3>
+                            <p class="font-jura">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti!
+                            </p>
+                            <button class="btn-custom mb-5 px-5">Go To</button>
+                        </div>
+                        <div class="d-flex flex-column align-items-end">
+                            <h3 class="fs-3 font-jura color-text-main w-100">
+                                Lorem ipsum dolor
+                            </h3>
+                            <p class="font-jura">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti!
+                            </p>
+                            <button class="btn-custom px-5">Go To</button>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex flex-column">
+                        <div class="d-flex flex-column align-items-end">
+                            <h3 class="fs-3 font-jura color-text-main w-100">
+                                Lorem ipsum dolor
+                            </h3>
+                            <p class="font-jura">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti!
+                            </p>
+                            <button class="btn-custom mb-5 px-5">Go To</button>
+                        </div>
+                        <div class="d-flex flex-column align-items-end">
+                            <h3 class="fs-3 font-jura color-text-main w-100">
+                                Lorem ipsum dolor
+                            </h3>
+                            <p class="font-jura">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti!
+                            </p>
+                            <button class="btn-custom mb-5 px-5">Go To</button>
+                        </div>
+                        <div class="d-flex flex-column align-items-end">
+                            <h3 class="fs-3 font-jura color-text-main w-100">
+                                Lorem ipsum dolor
+                            </h3>
+                            <p class="font-jura">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo voluptatem mollitia
+                                vel reiciendis doloribus itaque, architecto
+                                deleniti!
+                            </p>
+                            <button class="btn-custom px-5">Go To</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+            <!-- section earth -->
+            <div class="bg-earth vh-100"></div>
+        </main>
+        <footer>
+            <div class="container-fluid">
+                <div class="row px-5">
+                    <div class="col-6 text-white">
+                        <h3 class="fs-3 font-jura color-text-main w-100">
+                            Lorem ipsum dolor
+                        </h3>
+                        <p class="font-jura">
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Explicabo voluptatem mollitia
+                            vel reiciendis doloribus itaque, architecto
+                            deleniti! Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Explicabo voluptatem mollitia
+                            vel reiciendis doloribus itaque, architecto
+                            deleniti!
+                        </p>
 
-    </main>
-    <footer>
-        <!-- place footer here -->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" s
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
+                    </div>
+                    <div class="col-6 text-white d-flex align-items-center justify-content-around">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="bg-footer my-5 w-50"></div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            s
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-        crossorigin="anonymous"></script>
-    </script>
-</body>
-
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+            crossorigin="anonymous"></script>
+        <script src="/main.js"></script>
+    </body>
 </html>
